@@ -1,0 +1,29 @@
+"""dc_base = {'id':[],'empresa':[],'carteira':[],'meta_num':[]}
+
+dc_int = {'id':[],'int_hj':[]}
+
+dc_base['id'].append('101')
+dc_base['empresa'].append('TESTE_1')
+dc_base['carteira'].append('Kennedy')
+dc_base['meta_num'].append(10)
+
+dc_base['id'].append('202')
+dc_base['empresa'].append('TESTE_2')
+dc_base['carteira'].append('Natalia')
+dc_base['meta_num'].append(20)
+
+dc_int['id'].append('101')
+dc_int['int_hj'].append(1)
+
+dc_int['id'].append('202')
+dc_int['int_hj'].append(2)
+
+dc_int['id'].append('303')
+dc_int['int_hj'].append(3)
+
+df_base = pd.DataFrame(dc_base)
+df_int = pd.DataFrame(dc_int)
+
+display(df_base)
+display(df_int)
+"""
